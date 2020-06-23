@@ -1,8 +1,12 @@
-
+.button{
+    width: 70px;
+    border-radius: 60px;
+    margin: 5px;
+}
     
     
 .button:hover{
-    background-color :turquoise;
+    background-color :lightblue;
 }
 .cal{
     position: fixed;
