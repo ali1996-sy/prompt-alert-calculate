@@ -10,7 +10,10 @@
 }
 .cal{
     position: fixed;
-    top: 50%;
-    left: 50%;
+    top: 30%;
+    left: 70%;
     border: black 4px groove;
+}
+html{
+    background: url('./background.jpg');
 }
