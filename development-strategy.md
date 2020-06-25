@@ -8,8 +8,7 @@ It is a calculator using  prompt
 
 ### Branches
 
-1. This user story was developed on a brach called `1-title`
-1. It was merged to `master` when the feature was finished.
+ -add-script
 
 ### HTML
 button form 
@@ -26,7 +25,41 @@ button form
 
 ### Branches
 
-multiply-script
+ -multiply-script
+
+### HTML
+
+- button form 
+
+
+### CSS
+
+Styling button 
+
+---
+## 3. User Story: divide-script
+
+
+### Branches
+
+ -divide-script
+
+### HTML
+
+- button form 
+
+
+### CSS
+
+Styling button 
+
+---
+## 4. User Story: subtract-script
+
+
+### Branches
+
+ -subtract-script
 
 ### HTML
 
@@ -39,12 +72,37 @@ Styling button
 
 ---
 
-## 5. Finishing Touches
+## 5. User Story: display resultat
 
-__As a perfectionist, I want everything perfect :)__
 
-- Write final, complete README:
-  - [makeareadme.com](https://www.makeareadme.com/)
-  - [bulldogjob](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-  - [meakaakka](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
-- Validate code to check for any last mistakes
+### Branches
+
+ -display resultat
+
+### HTML
+
+- button form 
+
+
+### CSS
+
+Styling button 
+
+---
+## 6. User Story: rest-resultat
+
+
+### Branches
+
+ -rest-resultat
+
+### HTML
+
+- button form 
+
+
+### CSS
+
+Styling button 
+
+---
