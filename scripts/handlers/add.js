@@ -83,11 +83,12 @@ function addHandler() {
   console.log('lastResult (before):', typeof lastResult, '\n', lastResult);
 
   // read a number from the user
-  const fst =Number(prompt('enter the first number'));
-  const snd =Number(prompt('enter the second number'));
+  const fst =   Number(document.getElementById('first-number').value);
+  const snd =  Number(document.getElementById('second-number').value);
+
   // add the user's number to the last result and reassign lastResult
   lastResult=add(fst,snd);
   console.log('lastResult (after):', typeof lastResult, '\n', lastResult);
+  document.querySelector('#the-result').innerHTML = lastResult;
 
-  alert(`the new result is: ${lastResult}`);
 }

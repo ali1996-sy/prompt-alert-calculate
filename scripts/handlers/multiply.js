@@ -82,12 +82,12 @@ function multiplyHandler() {
   console.log('lastResult (before):', typeof lastResult, '\n', lastResult);
 
   // read a number from the user
-  const fst=Number(prompt('enter the first number'));
-  const snd=Number(prompt('enter the second number'));
+  const fst =   Number(document.getElementById('first-number').value);
+  const snd =  Number(document.getElementById('second-number').value);
 
   // multiply the last result by the user's number and reassign lastResult
   lastResult=multiply(fst,snd);
   console.log('lastResult (after):', typeof lastResult, '\n', lastResult);
 
-  alert(`the new result is: ${lastResult}`);
+  document.querySelector('#the-result').innerHTML = lastResult;
 }

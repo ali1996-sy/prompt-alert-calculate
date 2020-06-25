@@ -82,11 +82,11 @@ function divideHandler() {
   console.log('lastResult (before):', typeof lastResult, '\n', lastResult);
 
   // read a number from the user
-  const fst =Number(prompt('enter the first number'));
-  const snd =Number(prompt('enter the second number'));
+  const fst =   Number(document.getElementById('first-number').value);
+  const snd =  Number(document.getElementById('second-number').value);
   // divide the user's number to the last result and reassign lastResult
-  lastResult=add(fst,snd);
+  lastResult=divide(fst,snd);
   console.log('lastResult (after):', typeof lastResult, '\n', lastResult);
 
-  alert(`the new result is: ${lastResult}`);
+  document.querySelector('#the-result').innerHTML = lastResult;
 }
