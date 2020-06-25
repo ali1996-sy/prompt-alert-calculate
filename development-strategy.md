@@ -1,8 +1,8 @@
 # Development Strategy
 
-> `semantic-layout`
+> `prompt-alert-calculate`
 
-It is a calculator using  prompt 
+ -It is a calculator using  prompt 
 ## 1. User Story: add-script
 
 
